@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cómo Aprende la IA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f0f4f8;
+    }
+    .card-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      width: 260px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .emoji {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>¿Cómo Aprende la IA?</h1>
+
+  <div class="card-container">
+    <div class="card" style="background-color:#dbeafe;">
+      <div class="emoji">📚</div>
+      <h2>Aprendizaje Supervisado</h2>
+      <p>La IA aprende a partir de ejemplos claros de preguntas y respuestas.</p>
+    </div>
+
+    <div class="card" style="background-color:#dcfce7;">
+      <div class="emoji">🔍</div>
+      <h2>Aprendizaje No Supervisado</h2>
+      <p>La IA explora datos sin etiquetas y descubre patrones por sí misma.</p>
+    </div>
+
+    <div class="card" style="background-color:#fef9c3;">
+      <div class="emoji">🏆</div>
+      <h2>Aprendizaje por Refuerzo</h2>
+      <p>La IA mejora con la experiencia, aprendiendo de errores y aciertos.</p>
+    </div>
+  </div>
+
+</body>
+</html>
